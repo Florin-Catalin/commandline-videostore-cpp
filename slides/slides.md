@@ -113,14 +113,14 @@ class: class-diagram, image
 If you get "lost" or mess up your code:  
 For each exercise there is a branch you can check out (E0..E8b)
 
-| CLion keyboard shortcuts | PC | Mac | 
-| ------------| ----| ----| 
-| **Refactor submenu** | Ctrl+Alt+Shift+T | ^T | 
-| Rename | Shift+F6 |  ⇧+F6 | 
-| Extract **M**ethod/function | Ctrl+Alt+**M** |  ⌘+⌥+**M** | 
-| Extract **V**ariable | Ctrl+Alt+**V** |  ⌘+⌥+**V** | 
-| Change signature | Ctrl+F6 |  ⌘+F6 | 
-| I**n**line method/variable | Ctrl+Alt+**N** |  ⌘+⌥+**N** | 
+| CLion keyboard shortcuts    | PC               | Mac       |
+|-----------------------------|------------------|-----------|
+| **Refactor submenu**        | Ctrl+Alt+Shift+T | ^T        | 
+| Rename                      | Shift+F6         | ⇧+F6      | 
+| Extract **M**ethod/function | Ctrl+Alt+**M**   | ⌘+⌥+**M** | 
+| Extract **V**ariable        | Ctrl+Alt+**V**   | ⌘+⌥+**V** | 
+| Change signature            | Ctrl+F6          | ⌘+F6      | 
+| I**n**line method/variable  | Ctrl+Alt+**N**   | ⌘+⌥+**N** | 
 
 ---
 ## E0: Extract helper function to split strings
@@ -230,7 +230,7 @@ other control structures with several responsibilities in the body.
     - `getFrequentRenterPoints()`
     - `getCustomerName()`
 
-- Presentation logic (everthing accessing `in` or `out`) must be kept in `run` for now
+- Presentation logic (everything accessing `in` or `out`) must be kept in `run` for now
 
 ---
 ## E7: Extract Presentation Logic - Introduce Console class
